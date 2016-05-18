@@ -28,7 +28,7 @@ $(document).ready(function(){
 //    Also, the background should change to the dark_embroidery.png image located the images directory.
 
 	$('#low-vision').click(function() {
-		$('.changeTextColors').toggleClass(); ///??? Not Working
+		$('.changeTextColors').toggle(); ///??? Not Working
 		$('h4').css('background-color', '#fff');
 		$('body').css('background-image', 'url(images/dark_embroidery.png)');
 	});
